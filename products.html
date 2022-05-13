@@ -17,64 +17,160 @@
 
 <body class="bg-slate-500">
 	<!-- Navbar goes here -->
-	<nav class="bg-offwhite shadow-lg">
-		<div class="max-w-6xl mx-auto px-4">
-			<div class="flex justify-between">
-				<div class="flex space-x-7">
-					<div>
-						<!-- Website Logo -->
-						<a href="homepage.html" class="flex items-center py-4 px-2">
-							<img src="images/waves.png" alt="Logo" class="h-8 w-8 mr-2">
-							<span class="font-semibold text-gray-500 text-lg">Kahuna</span>
-						</a>
-					</div>
-					<!-- Primary Navbar items -->
-					<div class="hidden md:flex items-center space-x-1">
-						<a href="homepage.html"
-							class="py-4 px-2 text-gray-500 font-semibold hover:text-sky-600 transition duration-300 ">Home</a>
-						<a href="products.html"
-							class="py-4 px-2 text-sky-600 border-b-4 border-t-4 border-sky-800 font-semibold">Products</a>
-						<a href="waves.html"
-							class="py-4 px-2 text-gray-500 font-semibold hover:text-sky-600 transition duration-300">Waves</a>
+	<header>
+		<nav class="bg-offwhite shadow-lg">
+			<div class="max-w-6xl mx-auto px-4">
+				<div class="flex justify-between">
+					<div class="flex space-x-7">
+						<div>
+							<!-- Website Logo -->
+							<a href="homepage.html" class="flex items-center py-4 px-2">
+								<img src="images/waves.png" alt="Logo" class="h-8 w-8 mr-2">
+								<span class="font-semibold text-gray-500 text-lg">Kahuna</span>
+							</a>
+						</div>
+						<!-- Primary Navbar items -->
+						<div class="hidden md:flex items-center space-x-1">
+							<a href="homepage.html"
+								class="py-4 px-2 text-gray-500 font-semibold hover:text-sky-600 transition duration-300 ">Home</a>
+							<a href="products.html"
+								class="py-4 px-2 text-sky-600 border-b-4 border-t-4 border-sky-800 font-semibold">Products</a>
+							<a href="waves.html"
+								class="py-4 px-2 text-gray-500 font-semibold hover:text-sky-600 transition duration-300">Waves</a>
 
+						</div>
 					</div>
-				</div>
-				<!-- Secondary Navbar items -->
-				<div class="hidden md:flex items-center space-x-3 ">
-					<a href="#contact"
-						class="py-2 px-2 font-medium text-white bg-sky-600 rounded hover:bg-sky-800 transition duration-300">Contact
-						Us</a>
-				</div>
-				<!-- Mobile menu button -->
-				<div class="md:hidden flex items-center">
-					<button class="outline-none mobile-menu-button">
-						<svg class=" w-6 h-6 text-gray-500 hamburger" x-show="!showMenu" fill="none"
-							stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-							stroke="currentColor">
-							<path d="M4 6h16M4 12h16M4 18h16"></path>
-						</svg>
-					</button>
+					<!-- Secondary Navbar items -->
+					<div class="hidden md:flex items-center space-x-3 ">
+						<a href="#contact"
+							class="py-2 px-2 font-medium text-white bg-sky-600 rounded hover:bg-sky-800 transition duration-300">Contact
+							Us</a>
+					</div>
+					<!-- Mobile menu button -->
+					<div class="md:hidden flex items-center">
+						<button class="outline-none mobile-menu-button">
+							<svg class=" w-6 h-6 text-gray-500 hamburger" x-show="!showMenu" fill="none"
+								stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+								stroke="currentColor">
+								<path d="M4 6h16M4 12h16M4 18h16"></path>
+							</svg>
+						</button>
+					</div>
 				</div>
 			</div>
-		</div>
-		<!-- mobile menu -->
-		<div class="hidden mobile-menu">
-			<ul class="">
-				<li><a href="homepage.html"
-						class="block text-gray-500 font-bold px-2 py-4 hover:bg-sky-600 transition duration-300 text-center">Home</a>
-				</li>
-				<li class="active"><a href="products.html"
-						class="block font-bold px-2 py-4 text-white bg-sky-600 font-semibold text-center">Products</a>
-				</li>
-				<li><a href="waves.html"
-						class="block text-gray-500 font-bold px-2 py-4 hover:bg-sky-600 transition duration-300 text-center">Waves</a>
-				</li>
-				<li><a href="#contact"
-						class="block text-gray-500 font-bold text-white px-2 py-4 hover:bg-sky-600 bg-sky-400 transition duration-300 text-center">Contact
-						Us</a></li>
-			</ul>
-		</div>
-	</nav>
+			<!-- mobile menu -->
+			<div class="hidden mobile-menu">
+				<ul class="">
+					<li><a href="homepage.html"
+							class="block text-gray-500 font-bold px-2 py-4 hover:bg-sky-600 transition duration-300 text-center">Home</a>
+					</li>
+					<li class="active"><a href="products.html"
+							class="block font-bold px-2 py-4 text-white bg-sky-600 font-semibold text-center">Products</a>
+					</li>
+					<li><a href="waves.html"
+							class="block text-gray-500 font-bold px-2 py-4 hover:bg-sky-600 transition duration-300 text-center">Waves</a>
+					</li>
+					<li><a href="#contact"
+							class="block text-gray-500 font-bold text-white px-2 py-4 hover:bg-sky-600 bg-sky-400 transition duration-300 text-center">Contact
+							Us</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero h-5/6 mt-4 mb-12">
+			<div class="max-w-6xl mx-auto px-4">
+				<!-- Grid wrapper -->
+				<div class="-mx-4 flex flex-wrap">
+					<!-- Grid column -->
+					<div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">
+						<!-- Column contents -->
+						<div class="flex flex-col flex-1 px-10 py-12 bg-offwhite rounded-lg shadow-lg">
+							<div class="flex-1">
+								<img src="images/board1.jpg" alt="board1"
+									class="rounded-t-3xl border-2 border-gray-200 border-b-gray-300 shadow-lg mb-4">
+
+								<h3 class="text-2xl font-semibold text-center">
+									<a href="product.html" class="text-sky-600 hover:text-sky-800 my-4">
+										<span class="font-semibold">PAT MADDEN KING FISH SURFBOARD </span>
+									</a>
+								</h3>
+								<p class="text-gray-500 my-4">Description: Fish Surfboards are thicker and wider then
+									your traditional shortboard. They are often used by surfers on smaller, mushier days
+									where extra paddle strength is needed. Many fish surfboards have swallow tails to
+									generate extra speed but in doing so give up the maneuverability of a shortboard.
+									Fish surfboards come in a variety of shapes and fin set ups - from single, double,
+									tri and quad.</p>
+							</div>
+							<p class="text-gray-800 text-3xl self-end">
+								<span class="font-semibold">$635.00</span>
+							</p>
+							<a href="#"
+								class="mt-6 self-center px-20 py-3 text-white font-semibold bg-sky-400 hover:bg-sky-600 rounded-md shadow-sm">
+								Add to Cart
+							</a>
+						</div>
+					</div>
+					<div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">
+						<!-- Column contents -->
+						<div class="flex flex-col flex-1 px-10 py-12 bg-offwhite rounded-lg shadow-lg">
+							<div class="flex-1">
+								<img src="images/board2.jpg" alt="board2"
+									class="rounded-t-3xl border-2 border-gray-200 border-b-gray-300 shadow-lg mb-4">
+
+								<h3 class="text-2xl font-semibold text-center">
+									<a href="product.html" class="text-sky-600 hover:text-sky-800 my-4">
+										<span class="font-semibold">FIREWIRE SWEET POTATO HELIUM SURFBOARD </span>
+									</a>
+								</h3>
+								<p class="text-gray-500 my-4">Description: The NEW Sweet Potato is the refined
+									swallowtail version of the original Sweet Potato - the board that transformed what
+									surfing is for me (and I hope many others). The Sweet Potato converts waves that
+									would normally require a longboard (or even just be a non-surf day) into loads and
+									loads of fun because of the insane amount of volume packed into a very short board
+									that is loose and packs tons of drive.</p>
+							</div>
+							<p class="text-gray-800 text-3xl self-end">
+								<span class="font-semibold">$860.00</span>
+							</p>
+							<a href="#"
+								class="mt-6 self-center px-20 py-3 text-white font-semibold bg-sky-400 hover:bg-sky-600 rounded-md shadow-sm">
+								Add to Cart
+							</a>
+						</div>
+					</div>
+					<div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">
+						<!-- Column contents -->
+						<div class="flex flex-col flex-1 px-10 py-12 bg-offwhite rounded-lg shadow-lg">
+							<div class="flex-1">
+								<img src="images/board3.jpg" alt="board3"
+									class="rounded-t-3xl border-2 border-gray-200 border-b-gray-300 shadow-lg mb-4">
+
+								<h3 class="text-2xl font-semibold text-center">
+									<a href="product.html" class="text-sky-600 hover:text-sky-800 my-4">
+										<span class="font-semibold">SHARP EYE INFERNO 72 DARK ARTS SURFBOARD - FCS
+											II</span>
+									</a>
+								</h3>
+								<p class="text-gray-500 my-4">Description: The Sharp Eye Inferno 72 Dark Arts Surfboard.
+									Stab in the Dark - WINNER. The Inferno 72 is the model Sharpeye Surfboards built for
+									the 2021 Stab in the Dark contest. This board is a PU/PE replica of the Dark Arts
+									Epoxy board that took the win.</p>
+							</div>
+							<p class="text-gray-800 text-3xl self-end">
+								<span class="font-semibold">$1,355.00</span>
+							</p>
+							<a href="#"
+								class="mt-6 self-center px-20 py-3 text-white font-semibold bg-sky-400 hover:bg-sky-600 rounded-md shadow-sm">
+								Add to Cart
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
 </body>
 <script src="carousel.js"></script>
 
