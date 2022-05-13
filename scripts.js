@@ -1,5 +1,5 @@
-window.onload = () => {
-  const btn = document.querySelector('button.mobile-menu-button');
+const hamburgerMenuToggle = () => {
+  const btn = document.querySelector('.mobile-menu-button');
   const menu = document.querySelector('.mobile-menu');
   const hamburger = document.querySelector('.hamburger');
 

@@ -2,6 +2,10 @@
 	background-color: #E8F7FC;
 }
 
+.hide {
+	display: none;
+}
+
 /* carousel */
 .wrapper_carousel {
 	background: var(--primary-grey);
