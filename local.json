@@ -1,0 +1,107 @@
+{
+    "boards": [
+		{
+			"name": "PAT MADDEN KING FISH SURFBOARD",
+			"description": "Fish Surfboards are thicker and wider then your traditional shortboard. They are often used by surfers on smaller, mushier days where extra paddle strength is needed. Many fish surfboards have swallow tails to generate extra speed but in doing so give up the maneuverability of a shortboard. Fish surfboards come in a variety of shapes and fin set ups - from single, double, tri and quad.",
+			"price": "$630.00",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/madden_king_fish_5000x.jpg?v=1651858350",
+			"category": "Boards"
+		},
+		{
+			"name": "FIREWIRE SWEET POTATO HELIUM SURFBOARD",
+			"description": "The NEW Sweet Potato is the refined swallowtail version of the original Sweet Potato - the board that transformed what surfing is for me (and I hope many others). The Sweet Potato converts waves that would normally require a longboard (or even just be a non-surf day) into loads and loads of fun because of the insane amount of volume packed into a very short board that is loose and packs tons of drive.",
+			"price": "$860.00",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/firewire_sweet_potato_helium_fut_5000x.jpg?v=1651165780",
+			"category": "Boards"
+		},
+		{
+			"name": "LOST RETRO TRIPPER SURFBOARD",
+			"description": "The RETRO TRIPPER is inspired by the desire for a short and wide, with plenty of glide, fish alternative, for surfing punchy and powerful waves with confidence and control. It's wide (Beaked) nose, winged pin tail, mellow retro-rocker, flat deck and steep downward rails, combined with Twin+1 fin set-up, excels in good waves, powerful waves, hollow waves, fast waves and big waves, but is still wide and skatey enough for every day fun.",
+			"price": "$850.00",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/lost_retro_tripper_510_fut_5000x.jpg?v=1651686831",
+			"category": "Boards"
+		},
+		{
+			"name": "INSPIRED FLORIDA BOARD EPS SURFBOARD",
+			"description": "The Florida board is our go to, every day daily driver for our local waves. All of the design elements of the Florida board are designed to create power and drive in our weaker, typical surf. We widened the nose a bit to add surface area under your chest, lowered the entry rocker, and gave the board a single to double concave through the fins. An easy wave catching, super fast ride that makes sections with ease. Comes standard with a swallow tail which gives the board more range; the tail block is wide enough for every day surf, but really holds in when our waves get a bit better.",
+			"price": "$975.00",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/5_6FCS_5000x.jpg?v=1650567659",
+			"category": "Boards"
+		},
+		{
+			"name": "NEILSON MID-LENGTH SURFBOARD",
+			"description": "The Neilson Mid-Length Surfboard is a foiled nose and tail with double concaves for speed and drive. Good for floatation, paddling, learning to surf. This model lets you take a board reserved for cruising and learning and turns it into a board the experienced surfer can rip on. Good to have in anyones quiver for the slower hard to catch waves or those good days where it is a longer period swell. Let's you in early to get down the line and have fun on a day where normally on a short board it just seems like a closeouts.",
+			"price": "$825.00",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/neilson_midlength_5000x.png?v=1637172023",
+			"category": "Boards"
+		},
+		{
+			"name": "SOFTECH LIL RIPPER EPS SOFT SURFBOARD",
+			"description": "A new addition to the Softech Epoxy Series. Wide in the hips and tail with a deep concave for extra lift in mushy conditions. The perfect all-rounder for beachies, reef and fun in between the flags. Suitable for grommets and intermediate to advanced surfers. Epoxy core with single stringer. Vacuum glassed with 6OZ. cloth. FCS II Fin Boxes. High density PE foam deck. Ultra-thin soft HDPE slick bottom. Leash Plug installed. FCS II Softflex Fins included",
+			"price": "$445.00",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/SoftechLilRipper1_5000x.jpg?v=1651515388",
+			"category": "Boards"
+		}
+	],
+	"clothing": [
+		{
+			"name": "BUELL JOB RB1 ACCELERATOR 3/2 CHEST-ZIP MEN'S WETSUIT",
+			"description": "The Buell JOB RB1 Accelerator 3/2 chest-zip Men's fullsuit wetsuit model will keep you psyched like Jamie O'Brien! Without giving up the warmth that Buell Wetsuits are known for, this suit doubles down on flexibility. With its masterful blend of pliable 'Ninja Neoprene' coupled with ergonomic, perfectly placed panels, the RB1 is your go-to wetsuit that keeps the crowd gasping as your spray extends to the heavens...",
+			"price": "$256.95",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/BuellRB1JOBTigerBlack1_5000x.jpg?v=1642013617",
+			"category": "Clothing"
+		},
+		{
+			"name": "XCEL INFINITI 3MM MEN'S SPLIT-TOE WETSUIT BOOTIES",
+			"description": "Featuring Xcel's new Thermolite IR an infrared fiber infused lining that enhances warmth by helping to create and hold the heat generated by the body.",
+			"price": "$69.95",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/XcelInfiniti3mmWetsuitBootie1_5000x.jpg?v=1640361489",
+			"category": "Clothing"
+		},
+		{
+			"name": "O'NEILL O'RIGINAL 2MM MEN'S BACK-ZIP L/S SPRINGSUIT WETSUIT",
+			"description": "High performance core features, classic silhouettes, and throwback styling. - Back Zip. Retro Styling. Strategic Seam Placement. Wind-Proof Smoothskin. Single Seal Collar. Flatlock Stitched Breathable Seams. Ultraflex Neoprene",
+			"price": "$109.95",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/Spring1_5000x.jpg?v=1619637580",
+			"category": "Clothing"
+		},
+		{
+			"name": "QUIKSILVER 2/2 SYNCRO MEN'S S/S BACK-ZIP SPRINGSUIT",
+			"description": "100% StretchFlight x2 neoprene warm, light & flexible. Flatlock stitched seams soft, flexible & durable. - Back zip entry with YKK #10 plastic zip. Hydrowrap completely adjustable neck closure system for a watertight seal. Drainage holes. Suitable for suggested water temperatures of 21-23°C / 70-73°F. This is a guide only: Weather, sensitivity to the cold & conditions at your local break will affect temperatures and choice of equipment. Composition: 83% Nylon, 17% Elastane",
+			"price": "$94.95",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/Quiksilver22SyncroSSBZSpringsuit1_5000x.jpg?v=1600712396",
+			"category": "Clothing"
+		}
+	],
+	"gear": [
+		{
+			"name": "INDO BOARD ORIGINAL DECK AND ROLLER KIT - BAMBOO BEACH",
+			"description": "INDO BALANCE BOARD Deck & Roller features our 30” X 18” oval Original deck that is coated with a non-slip surface and our 6.5” diameter plastic Original roller.  This is the product that started it all.  Since that time the iconic Indo Board Original has become fun and functional training device that has been used by hundreds of world and national champion athletes, in virtually every sport, all across the globe.   The Original is available in 11 color and graphic choices.",
+			"price": "$169.95",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/indo-beach_5000x.jpg?v=1587127727",
+			"category": "Gear"
+		},
+		{
+			"name": "SIMBA SENTIEL NO LOGO SURF HELMET - MATTE BLACK",
+			"description": "A lightweight, low-profile helmet engineered specifically for the safety of surfers and water sports enthusiasts. The Sentinel 1’s technically advanced design provides high-level impact protection with optimum aquadynamic performance.",
+			"price": "$199.99",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/SimbaMatteNoLogo_5000x.jpg?v=1645387983",
+			"category": "Gear"
+		},
+		{
+			"name": "CREATURES OF LEISURE SURFEARS JUNIOR 2.0",
+			"description": "The Creatures of Leisure SurfEars JUNIOR 2.0. SurfEars Junior 2.0 is an ear plug developed for young surfers and swimmers, designed to keep their ears safe while being able to hear, speak and enjoy their time in the water. Junior 2.0 includes several product enhancements which improve the overall comfort and usability of the ear plugs for young surfers.",
+			"price": "$45.00",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/SurfEarsJr1_5000x.jpg?v=1626794280",
+			"category": "Gear"
+		},
+		{
+			"name": "DAKINE MISSION 30L BACKPACK",
+			"description": "The Dakine Mission Surf 30L Backpack. If you're lucky enough to fit work, school, and surfing into the same day, the Mission Surf Pack is the backpack for you. A removable wet/dry bag keeps your boardshorts and tops separate from your dry gear. All the usual backpack pockets including fleece-lined sunglasses storage help keep all your everyday stuff within easy reach.",
+			"price": "$80.00",
+			"image": "https://cdn.shopify.com/s/files/1/0003/1902/9309/products/10002838-BLK_5000x.jpg?v=1622205773",
+			"category": "Gear"
+		}
+	]
+
+}

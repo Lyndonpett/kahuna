@@ -30,6 +30,7 @@
     initialSlide();
     setIndicators();
     hamburgerMenuToggle();
+    initJSON();
   };
 
   function updateIndicators() {
