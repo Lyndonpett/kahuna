@@ -6,6 +6,10 @@
 	display: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* carousel */
 .wrapper_carousel {
 	background: var(--primary-grey);

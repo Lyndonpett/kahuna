@@ -29,6 +29,52 @@ const initJSON = () => {
         createProductCard(actualJSON[item][i]);
       }
     }
+    var searchInput = document.getElementById('searchInput');
+
+    searchInput.addEventListener('keyup', (event) => {
+      var productRemove = document.getElementById('products');
+      productRemove.innerHTML = '';
+
+      var { value } = event.target;
+
+      var searchQuery = value.toLowerCase();
+
+      for (var item in actualJSON) {
+        for (var i = 0; i < actualJSON[item].length; i++) {
+          var product = actualJSON[item][i];
+          var name = product.name.toLowerCase();
+
+          if (name.includes(searchQuery)) {
+            createProductCard(product);
+          }
+        }
+      }
+    });
+    var dropDown = document.getElementById('category');
+
+    dropDown.addEventListener('change', (event) => {
+      var productRemove = document.getElementById('products');
+      productRemove.innerHTML = '';
+      var { value } = event.target;
+
+      if (value === 'all') {
+        for (var item in actualJSON) {
+          for (var i = 0; i < actualJSON[item].length; i++) {
+            createProductCard(actualJSON[item][i]);
+          }
+        }
+      }
+
+      for (var item in actualJSON) {
+        for (var i = 0; i < actualJSON[item].length; i++) {
+          var product = actualJSON[item][i];
+          var category = product.category.toLowerCase();
+          if (category === value) {
+            createProductCard(product);
+          }
+        }
+      }
+    });
   });
 };
 
@@ -44,7 +90,7 @@ const createProductCard = (product) => {
 				class="rounded-t-3x border-2 border-gray-300 shadow-lg mb-4">
 			<h3 class="text-2xl font-semibold text-center">
 				<a href="product.html" class="text-sky-600 hover:text-sky-800 my-4">
-					<span class="font-semibold">${product.name}</span>
+					<span class="font-semibold name">${product.name}</span>
 				</a>
 			</h3>
 			<p class="text-gray-600 text-center mt-4 underline">Description:</p>
@@ -60,9 +106,4 @@ const createProductCard = (product) => {
 	</div>
 </div>`;
   card.innerHTML += cardContent;
-};
-
-const getProducts = () => {
-  var nameValue = document.getElementById('uniqueID').value;
-  console.log(nameValue);
 };
