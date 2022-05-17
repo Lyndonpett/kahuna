@@ -27,10 +27,23 @@
   }
 
   window.onload = function (event) {
-    initialSlide();
-    setIndicators();
-    hamburgerMenuToggle();
-    initJSON();
+    if (window.location.pathname == '/homepage.html') {
+      initialSlide();
+      setIndicators();
+      hamburgerMenuToggle();
+    }
+
+    if (window.location.pathname == '/products.html') {
+      hamburgerMenuToggle();
+      initJSON();
+    }
+
+    if (window.location.pathname == '/waves.html') {
+      hamburgerMenuToggle();
+      initialSlide();
+      setIndicators();
+      playRandomAudio();
+    }
   };
 
   function updateIndicators() {

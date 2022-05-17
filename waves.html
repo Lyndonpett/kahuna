@@ -10,7 +10,9 @@
 
 	<!-- Tailwind -->
 	<script src="https://cdn.tailwindcss.com"></script>
-	<link rel="stylesheet" href="/path/to/cdn/fontawesome.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="styles.css">
 	<script src="scripts.js"></script>
 </head>
@@ -78,9 +80,144 @@
 	<!-- Main content goes here -->
 	<main>
 
+		<section class="hero h-5/6  bg-offwhite drop-shadow-2xl">
+			<div class="max-w-6xl mx-auto px-4 mt-16">
+
+
+				<div class="flex flex-col rounded-xl">
+					<img src="images/logo2.jpg" alt="Logo2" class="rounded-xl mt-12 mb-8  hidden md:block">
+					<img src="images/logo.png" alt="Logo" class="rounded-xl mt-12 mb-8  md:hidden mx-auto">
+					<div class="border-slate-300 bg-slate-300 rounded shadow-lg">
+						<p class="text-center text-sky-700 text-2xl mb-8 mt-4 font-medium">
+							Kahuna™ is a new wave of business that is revolutionizing the way we live our lives.
+						</p>
+						<p class="text-center text-sky-700 text-2xl mb-8 font-medium">
+							We want to share our vision and help you unlock your full potential.
+						</p>
+						<p class="text-center text-sky-700 text-3xl mb-4 font-medium">
+							Please click the button below, then a whole new world of possibilities, inspiration, and
+							potential
+							awaits you.
+						</p>
+					</div>
+					<button
+						class="bg-sky-600 hover:bg-sky-800 text-white font-bold py-4 px-20 rounded-full mt-16 mx-auto block shadow-lg">
+						<a href="#audioPlayer" class="text-white" id="audioPlayerBtn">Unlock Your Wisdom</a>
+					</button>
+					<p class="text-xs text-center text-gray-100 mt-2 mb-24 text-sky-500">
+
+						<span class="ml-2">Click Again For New Sound</span>
+					</p>
+
+					<div id="audioPlayer">
+						<!-- js here -->
+
+					</div>
+
+
+				</div>
+
+			</div>
+		</section>
+		<!-- Testemonials section -->
+		<section class="testemonials h-3/6 px-4 mt-32">
+			<h1 class="text-center text-5xl font-bold text-gray-200 mb-4 mt-20">Testimonials</h1>
+
+			<div class="max-w-6xl mx-auto bg-offwhite rounded-xl">
+				<section class="wrapper_carousel flex flex-col justify-center w-full shadow-3xl" role="region"
+					aria-label="testimonial carousel">
+					<div
+						class="carousel-data relative overflow-hidden flex items-center justify-center w-full mt-8 mb-8">
+						<div class="carousel-item" role="group" aria-label="slide 1 of 5">
+							<div class="author-profile md:mt-4 mt-12">
+								<img src="https://source.unsplash.com/random/?portrait,face/108x108">
+							</div>
+							<p class="text_caption italic my-8 text-center">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							</p>
+							<span class="caption-author text-gray-500">
+								- William T. Riker
+							</span>
+						</div>
+						<div class="carousel-item" role="group" aria-label="slide 2 of 5">
+							<div class="author-profile md:mt-4 mt-12">
+								<img src="https://source.unsplash.com/random/300×600/?model,portrait,face">
+							</div>
+							<p class="text_caption italic my-8 text-center">
+								Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other
+								websites. Lorem Ipsum best not make any more threats to your website. It will be met
+								with fire and fury like the world has never seen. Does everybody know that pig named
+								Lorem Ipsum? An ‘extremely credible source’ has called my office and told me that Barack
+								Obama’s placeholder text is a fraud.
+							</p>
+							<span class="caption-author text-gray-500">
+								- Sasha Banks
+							</span>
+						</div>
+						<div class="carousel-item" role="group" aria-label="slide 3 of 5">
+							<div class="author-profile md:mt-4 mt-12">
+								<img src="https://source.unsplash.com/random/300×600/?woman,portrait,face">
+							</div>
+							<p class="text_caption italic my-8 text-center">
+								Lorem ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics
+								artisan synth stumptown gastropub cornhole celiac swag. Brunch raclette vexillologist
+								post-ironic glossier ennui XOXO mlkshk godard pour-over blog tumblr humblebrag. Blue
+								bottle put a bird on it twee prism biodiesel brooklyn. Blue bottle ennui tbh succulents.
+							</p>
+							<span class="caption-author text-gray-500">
+								- Dana E. Owens
+							</span>
+						</div>
+						<div class="carousel-item" role="group" aria-label="slide 4 of 5">
+							<div class="author-profile md:mt-4 mt-12">
+								<img src="https://source.unsplash.com/random/300×600/?man,portrait,face">
+							</div>
+							<p class="text_caption italic my-8 text-center">
+								Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery.
+								Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce
+								lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra
+								leone bologi leek soko chicory celtuce parsley jícama salsify.
+							</p>
+							<span class="caption-author text-gray-500">
+								- Robert Booker
+							</span>
+						</div>
+						<div class="carousel-item" role="group" aria-label="slide 5 of 5">
+							<div class="author-profile md:mt-4 mt-12">
+								<img src="https://source.unsplash.com/random/300×600/?teen,portrait,face">
+							</div>
+							<p class="text_caption italic my-8 text-center">
+								Skate ipsum dolor sit amet, alley oop vert mute-air Colby Carter flail 180 berm.
+								Half-cab camel back ollie transition ledge Wes Humpston 1080. Carve casper switch
+								kickturn late downhill. Hardware nosebone Rick McCrank bluntslide bigspin steps egg
+								plant. Slap maxwell roll-in airwalk fast plant fastplant pivot.
+								TV IPSUM
+							</p>
+							<span class="caption-author text-gray-500">
+								- Ororo Munroe
+							</span>
+						</div>
+					</div>
+					<div class="carousel-indicators flex items-center">
+					</div>
+					<div class="carousel-controls flex justify-end mt-4" aria-label="carousel controls">
+						<button type="button" class="button_carousel-prev" aria-label="previous"><i
+								class="fas fa-caret-left"></i></button>
+						<button type="button" class="button_carousel-next ml-1" aria-label="next"><i
+								class="fas fa-caret-right"></i></button>
+					</div>
+					<a href="#contact" class="md:pl-4 pl-8 pb-2 font-bold text-sky-600 hover:text-sky-400">
+						Got Wisdom to Share?
+					</a>
+
+				</section>
+		</section>
 	</main>
-	<footer class="bg-offwhite ">
-		<div class="max-w-6xl mx-auto">
+	<footer class="bg-offwhite mb-0">
+		<div class="max-w-6xl mx-auto mt-48">
 			<footer class="p-4 sm:p-6">
 				<div class="md:flex md:justify-between">
 					<div class="mb-6 md:mb-0">

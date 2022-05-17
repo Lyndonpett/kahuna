@@ -107,3 +107,18 @@ const createProductCard = (product) => {
 </div>`;
   card.innerHTML += cardContent;
 };
+
+const playRandomAudio = () => {
+  var btn = document.getElementById('audioPlayerBtn');
+
+  var audio = document.getElementById('audioPlayer');
+
+  btn.addEventListener('click', () => {
+    var index = Math.floor(Math.random() * 8) + 1;
+    var playerTemplate = `<audio controls autoplay class="mx-auto mt-16 mb-2">
+  <source src="audio/wave${index}.mp3" type="audio/mpeg">
+</audio>`;
+
+    audio.innerHTML = playerTemplate;
+  });
+};
