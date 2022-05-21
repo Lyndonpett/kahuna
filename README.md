@@ -1,5 +1,5 @@
 # Kahuna App
-*Is a web app designed to give users access to Kahuna products.  
+ Is a web app designed to give users access to Kahuna products.  
 
 
 ## Project Objective
@@ -18,6 +18,12 @@ To create an environment where users can purchase surf products and channel the 
 * Create the ability to search the product list.
 * Minimize the amount of CSS needed. 
 * Using Tailwind CSS, make the site responsive.
+
+## To Test: 
+Git clone https://github.com/Lyndonpett/kahuna.git 
+Run it in vscode live server to test:)
+
+
 
 
 ## Authors
