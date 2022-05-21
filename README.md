@@ -22,6 +22,3 @@ To create an environment where users can purchase surf products and channel the 
 
 ## Authors
 Lyndon Petterson - Rocko Gilbert 
-
-## License
-Public Domain. No copy write protection.
