@@ -8,7 +8,7 @@ You and your team have been contacted by a local, elusive, client. They have a n
 # Description
 ### This project was given as a partner project. Given the prompt "waves", as a two person team, we came up with the idea of a psuedo-surf shop. This project was done with vanilla JS and HTML/CSS. As well as all designs are custom and completely new. 
 
-# Screenshot
+# Screenshots
 ![Kahuna1](./kahuna1.png "Kahuna1")
 ![Kahuna2](./kahuna2.png "Kahuna2")
 ![Kahuna3](./kahuna3.png "Kahuna3")
